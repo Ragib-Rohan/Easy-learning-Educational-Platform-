@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@200&family=Yuji+Syuku&display=swap');
+/* paragraph */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+.Pp{
+    margin-top: 2%;
+    background: rgba(228, 206, 8, 0.24);
+    border-radius: 30px;
+    padding:5% 0 5% 0;
+}
+
+.Pp h1{
+    color:rgba(14, 218, 14, 0.863);
+    font-family: 'Montagu Slab', serif;
+    font-weight: bold;
+    text-shadow: 1px 2px rgba(2, 2, 2, 0.219);
+    text-align: left;
+    padding-left: 9%;
+}
+.Pp h4{
+    color:rgba(68, 70, 71, 0.863);
+    text-shadow: 1px 2px rgba(2, 2, 2, 0.219);
+    text-align: left;
+    
+}
+
+.Pp p{
+    font-family: 'Rajdhani', sans-serif;
+    text-align:justify;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Cimg img{
+    padding: 10% 0 2%  0;
+    height: 400px;
+}

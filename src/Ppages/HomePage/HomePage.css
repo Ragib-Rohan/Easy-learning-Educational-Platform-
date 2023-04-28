@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Dis{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    z-index: 2;
+    background: url('./SVG/background.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+#imgL{
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%, 100%);
+    z-index: 100;
+}
+
+#imgH{
+    height: 250px;
+    position: absolute;
+    transform: translate(-50%, 290%);
+    z-index: 100;
+}
+#imgB{
+   
+
+    height: 250px;
+    position: absolute;
+    transform: translate(-380%,170%);
+    z-index: 2;
+}
+#imgC{
+    
+    height: 120px;
+    position: absolute;
+    transform: translate(580%,380%);
+    z-index: 2;
+}
+#imgP{
+    
+    height: 150px;
+    position: absolute;
+    transform: translate(-160%,460%);
+    z-index: 2;
+}
+#imgS{
+    
+    height: 250px;
+    position: absolute;
+    transform: translate(280%,240%);
+    z-index: 2;
+}
+.bb{
+    height: 200px;
+}
+
+.blr{
+  height: 100px;
+  background: linear-gradient(#cc9d74, rgba(255, 254, 254, 0.822));
+  z-index: 1000;
+}

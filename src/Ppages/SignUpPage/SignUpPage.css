@@ -1,0 +1,181 @@
+:root{
+    --error-color:red;
+}
+
+.f-control{
+    padding-bottom: 10px;
+    position: relative;
+    
+    
+}
+.f-control small{
+    color: var(--error-color);
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+    bottom: 0;
+    font-size: 12px;
+    font-weight:500;
+    
+}
+
+
+
+#dis1{
+    height: 100vh;
+    width: 100%;
+    background: url('./image/bg2.svg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    overflow: hidden;
+}
+
+
+.Sbutton{
+    color: rgb(238, 211, 0);
+    background: none;
+    border: none;
+    margin-top: 40px;
+    font-size: 30px;
+    border-bottom: 3px solid rgb(253, 173, 0);
+    width: 170px;
+    transition: 0.75s ease-in-out;
+}
+
+.Sbutton:hover{
+    cursor: grab;
+    caret-color: red;
+    border-bottom: 3px solid rgb(120, 248, 0);
+    width: 200px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    padding-bottom: 5px;
+    
+}
+
+.TAnimation{
+    animation: t 8s linear infinite;
+    position:relative;
+}
+.SAnimation{
+    animation: s 8s linear infinite;
+    position:relative;
+}
+
+@keyframes t{
+    0%{
+       left: 50px;
+     }
+     50% {
+         left: 0;
+     }
+     100%{
+         left:  50px;
+     }
+  
+}
+
+@keyframes s{
+    0%{
+        right: 50px;
+      }
+      50% {
+          right: 0;
+      }
+      100%{
+          right:  50px;
+      }
+  
+}
+.d1{
+    margin: 5%;
+    background: rgb(252, 208, 177);
+    border-radius: 50px;
+}
+
+.dd{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: 0.75s all ease-in-out;
+}
+
+
+.dd input[type="text"], input[type="email"], input[type="password"]{
+    border:0;
+    background: none;
+    display: absolute;
+    text-align: center;
+    outline: none;
+    border-bottom: 2px solid rgb(202, 199, 6);
+    margin: 10px 20px;
+    padding: 14px 10px;
+    height: 35px;
+    width: 300px;
+    border-radius: 24px;
+    transition: 0.50s;
+    font-size: 18px;
+    background-color: rgb(255, 251, 251);
+}
+.dd input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
+    width: 350px;
+    border-color: #06df68;
+}
+.SpanA{
+    font-weight: bolder;
+    color: rgb(14, 159, 216);
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.SpanB{
+    padding-left: 40px;
+    font-size: 20px;
+    color: rgb(27, 216, 27);
+    font-weight: lighter;
+    
+}
+.SpaN{
+    display: flex;   
+}
+span{
+    padding: 0 10px;
+}
+
+.Fbutton{
+  font-size: 20px;
+  height: 40px;
+  background: none;
+  outline: none;
+  border: 2px solid skyblue;
+  border-radius: 24px;
+  padding: 3px 8px;
+  color: rgb(80, 79, 2);
+  width: 100px;
+  transition : 0.5s ease-in-out ;
+}
+
+.Fbutton:hover{
+    width: 130px;
+    
+    border-color: aqua;
+    color:rgb(24, 236, 24);
+    
+}
+input[type="radio"]{
+    border:none;
+}
+i{
+    color:white;
+    font-size: 20px;
+}
+.formImage{
+    margin-top: 10%;
+}

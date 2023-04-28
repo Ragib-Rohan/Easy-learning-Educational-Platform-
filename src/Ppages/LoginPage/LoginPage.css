@@ -1,0 +1,106 @@
+#dis{
+    height: 100vh;
+    width: 100%;
+    background: url('./image/bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    overflow: hidden;
+}
+
+
+.dis1{
+    padding: 5% 10% 10% 10%;
+
+}
+
+
+.LBox{
+    margin-top: 4%;
+    background-color: rgba(239, 250, 87, 0.438);
+    border-radius: 25px;
+    padding: 1% 0 5% 0;
+    overflow: hidden;
+}
+
+
+.LForm{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: 0.75s all ease-in-out;
+    
+}
+
+
+.LForm h2{
+    color: rgb(99, 102, 99);
+}
+
+
+.LForm input[type='email'],
+.LForm input[type='password']{
+    display: block;
+    margin: 10px;
+    
+    padding: 14px 10px;
+    text-align: center;
+    border:none;
+    background: none;
+    
+    outline: none;
+    border: 2px solid rgb(185, 185, 44);
+    border-radius: 25px;
+    
+}
+
+.LForm input[type='email']:focus,
+.LForm input[type='password']:focus{
+    transition: ease-in 1s;
+    width: 400px;
+    border-color: rgb(205, 50, 50);
+    
+
+}
+
+.LForm button{
+    display: block;
+    outline: none;
+    background:none;
+    border:none;
+    color: rgb(112, 112, 112);
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 25px;
+    margin-top: 4%;
+    padding: 10px 25px;
+    transition: 1s all ease-in-out;
+}
+
+.LBox button:hover{
+    width: 170px;
+    transition: 1s all;
+}
+
+.Rocket{
+    margin-top: 50px;
+    animation: a 8s linear infinite;
+    position:relative;
+    
+    
+}
+@keyframes a{
+     0%{
+        bottom: 0;
+      }
+      50% {
+          bottom: 100px;
+      }
+      100%{
+          bottom: 0;
+      }
+   
+}
